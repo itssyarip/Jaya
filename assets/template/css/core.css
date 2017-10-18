@@ -3549,8 +3549,13 @@ select[multiple].input-group-xs > .input-group-btn > .btn {
   padding-bottom: 92px;
 }
 .navbar-brand > img {
+<<<<<<< HEAD
   margin-top: 1px;
   height: 25px;
+=======
+  margin-top: 2px;
+  height: 16px;
+>>>>>>> 1062852dd398d01bf9af2bbac9eae803c4f0d490
 }
 .navbar-nav {
   margin: 0;
