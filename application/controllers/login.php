@@ -60,8 +60,8 @@ class Login extends CI_Controller {
     }
     
     function process_login(){
-        $username = mysql_real_escape_string($_POST['username']);
-        $password = mysql_real_escape_string($_POST['password']);
+        $username = trim($_POST['username']);
+        $password = trim($_POST['password']);
 //        $ldapAuth = $this->ldap_auth($username, $password);
 //        
 //        if ($ldapAuth) {

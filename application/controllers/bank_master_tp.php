@@ -190,15 +190,19 @@ class Bank_Master_Tp extends MY_Controller {
     function get_account() {
         $this->load->model(array('master_account_model'));
         $idBse = $this->input->post('id_bse');
-        $options = '';
+        $result = array();
+        $options = '<label>No. Account</label><select class="select-search" field="unit" id="acc_bank" name="acc_bank" class="form-control">';
         if ($idBse != '') {
-            $accData = $this->master_account_model->getAccount(array('acc_num'=> $idBse),'or_like');
+            $accData = $this->master_account_model->getAccount(array('substr(ACC_NUM,5,6)'=> $idBse));
             if ($accData) {
                 foreach($accData as $index => $value) {
-                    $options .= '<option value='.$value['acc_num'].'"">'.$value.'</option>';
+                    $options .= '<option value='.$value['acc_num'].'"">'.$value['acc_num'].'</option>';
                 }
             }
         }
+        $options .= '</select>';
+        $result['htmldata'] = $options;
+        echo json_encode($result);
     }
     
     function menuSelect($data, $select = '', $margin=0) {

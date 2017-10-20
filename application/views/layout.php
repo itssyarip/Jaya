@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> <!--<![endif]-->
+<html lang="en" class="no-js"> <!--<![endif]-->
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8" />
@@ -18,6 +18,7 @@
         <div class="navbar navbar-inverse bg-indigo">
             <div class="navbar-header">
                 <a class="navbar-brand" href="index.html"><img src="<?=base_url()?>assets/template/images/logo-jaya-property.png" alt=""></a>
+
                 <ul class="nav navbar-nav pull-right visible-xs-block">
                     <li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
                 </ul>
@@ -104,7 +105,7 @@
 
         <div class="footer">
             <div class="footer-inner">
-                2017 - SIA - PT. Jaya Real Property
+                2017 - Jaya
                 <!--- &copy;--> 
                 <!--<span style="color: #FFF">indo</span><span style="color: #F00">net</span>-->
             </div>

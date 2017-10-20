@@ -137,17 +137,10 @@
                     </div>
                     <div class="form-group">
                         <div class="row">
-<<<<<<< HEAD
                             <div class="col-sm-12 acc_bank_area">
 <!--                                <label>No. Account</label>-->
 <!--                                <select class="select-search" field="unit" id="acc_bank" name="acc_bank" class="form-control">
                                 </select>-->
-=======
-                            <div class="col-sm-12">
-                                <label>No. Account</label>
-                                <select class="select-search" field="unit" id="acc_bank" name="acc_bank" class="form-control">
-                                </select>
->>>>>>> 1062852dd398d01bf9af2bbac9eae803c4f0d490
                             </div>
                         </div>
                     </div>
