@@ -1,4 +1,5 @@
-<html lang="en" class="no-js"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en"> <!--<![endif]-->
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8" />
@@ -11,21 +12,12 @@
         $this->load->view("util/globalJs");
 //        $this->load->view("util/formJs");
         ?>
-<<<<<<< HEAD
         <link rel="shortcut icon" href="<?=base_url()?>assets/template/images/favicon.png" />
-=======
-        <link rel="shortcut icon" href="favicon.ico" />
->>>>>>> 1062852dd398d01bf9af2bbac9eae803c4f0d490
     </head> 
     <body>
         <div class="navbar navbar-inverse bg-indigo">
             <div class="navbar-header">
-<<<<<<< HEAD
                 <a class="navbar-brand" href="index.html"><img src="<?=base_url()?>assets/template/images/logo-jaya-property.png" alt=""></a>
-=======
-                <a class="navbar-brand" href="index.html"><img src="<?=base_url()?>assets/template/images/logo_light.png" alt=""></a>
->>>>>>> 1062852dd398d01bf9af2bbac9eae803c4f0d490
-
                 <ul class="nav navbar-nav pull-right visible-xs-block">
                     <li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
                 </ul>
@@ -112,11 +104,7 @@
 
         <div class="footer">
             <div class="footer-inner">
-<<<<<<< HEAD
                 2017 - SIA - PT. Jaya Real Property
-=======
-                2017 - Jaya
->>>>>>> 1062852dd398d01bf9af2bbac9eae803c4f0d490
                 <!--- &copy;--> 
                 <!--<span style="color: #FFF">indo</span><span style="color: #F00">net</span>-->
             </div>
